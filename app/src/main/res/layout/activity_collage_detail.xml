@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CollageDetail">
+    
+    <com.google.android.material.appbar.AppBarLayout
+        android:background="@color/Lavender"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/clg_appbarlayout_id">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/clg_collapsingtoolbar_id"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="Collage Name"
+            app:expandedTitleTextColor="#00FFFFFF"
+            app:collapsedTitleTextColor="#fff"
+            app:expandedTitleMarginStart="15dp"
+            app:expandedTitleMarginEnd="5dp">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                android:theme="@style/ThemeOverlay.AppCompat.Light">
+            </androidx.appcompat.widget.Toolbar>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/clg_Pic"></ImageView>
+
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:background="#DFFFFFFF"
+                android:layout_marginTop="50dp">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:background="@drawable/loading_shape"
+                    android:id="@+id/clg_Logo"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/clg_Name"
+                        android:text="Collage Name"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18sp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Clg Location"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/clg_Location"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="website"
+                        android:textSize="20dp"
+                        android:id="@+id/clg_Website"
+                        android:textStyle="italic"
+                        android:textColor="#2E2E2E"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:padding="16dp">
+
+        <TextView
+            android:text="Collage Description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/clg_Description"></TextView>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

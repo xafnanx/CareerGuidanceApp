@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AoiDetail"
+    android:layout_marginTop="30dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/career_Name_Detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Career Name"
+        android:textColor="@color/Lavender"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/career_Description_Detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Description"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="XII stream"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/Lavender"
+        android:id="@+id/career_Stream"
+        android:text="Stream"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Mandatory Subject"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/Lavender"
+        android:id="@+id/career_Subject"
+        android:text="Subject"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Academic Difficulty"/>
+
+    <TextView
+        android:id="@+id/career_Difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/Lavender"
+        android:text="Difficulty"/>
+
+    <TextView
+        android:id="@+id/career_Url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lavender_background"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:text="Read More"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AoiDetail"
+    android:layout_marginTop="30dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/course_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Course Name"
+        android:textColor="@color/Lavender"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/course_Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Description"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:text="Course Field"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/Lavender"
+        android:id="@+id/course_Field"
+        android:text="Field"/>
+
+    <TextView
+        android:id="@+id/course_Url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lavender_background"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:text="Read More"/>
+
+
+
+</LinearLayout>

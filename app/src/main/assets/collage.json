@@ -1,0 +1,19 @@
+[
+    {
+        "clgName": "Managlore Institute of Technology and Engineering",
+        "clgLocation": "Moodbidri, Karnataka, India",
+        "clgWebsite": "https://mite.ac.in/",
+        "clgDescription": "Engineering Collage",
+        "clgRating": "4",
+        "clgPic": "https://mite.ac.in/wp-content/uploads/2020/07/slider-1-mite.jpg",
+        "clgLogo": "https://upload.wikimedia.org/wikipedia/commons/9/99/MITE_Logo.jpg",
+        "courses": [
+            "Aeronautical Engineering",
+            "Civil Engineering",
+            "Computer Science & Engineering",
+            "Information Science & Engineering",
+            "Mechanical Engineering",
+            "Mechatronics"
+        ]
+    }
+]

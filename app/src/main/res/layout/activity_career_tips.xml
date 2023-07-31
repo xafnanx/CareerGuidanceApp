@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Lavender"
+    tools:context=".CareerTips">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="1. Venture outside of your comfort zone"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="When you try new things, you prepare yourself for your next role. You may consider taking on new and difficult tasks that you aren't comfortable with to expand your skill set."
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="2. View every person you meet as a door that may lead you to a new opportunity"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="You never know how a person can add to your life professionally or personally if you don't give them a chance. Your job may be a for-now job, but that doesn't mean that the connections you make with the people there won't be forever. It is best to view each person as valuable and worthy of your time and consideration."
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="3. Show up early"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:background="@drawable/input_bg1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Even if you become jaded in your position at your job, do your best to show up early and ready to complete your assigned tasks. Each job you will have is important for building your career and character. Employers will appreciate and notice your effort, and you will continue to stay on good terms if you display your eagerness to work by showing up early."
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="4. Think of yourself as a lifelong learner"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="You can continue to learn no matter what stage of your career you are in. When you learn continuously, you can gain more skills and become flexible and adaptable in your career path. Possessing a willingness to learn is an attribute that is highly valued in today's workforce."
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="5. Every year or so, deeply consider your career path"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="About once a year, you should go out and refresh your network, check out new opportunities and conduct salary comparisons. It is easier to make strategic career decisions when you have real data to compare to the benefits of your current job. It is important to know where you stand in your industry. You may also consider sharpening your knowledge of new industry trends each year to remain competitive in the job market if you should ever choose to or need to leave your current workplace."
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="6. Search for the value in feedback or criticism"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Each piece of feedback you receive can be used to help you grow and further develop in your career. Try not to focus on the method of delivery or the person providing you with the feedback. Instead, you should do your best to avoid getting upset and take the value out of the message you are receiving and move on."
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="7. Cultivate perseverance"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="You may not enter a job and become a top performer right away. It is important that you continue to persevere and develop so that you can reach your career goals and become a top performer. For instance, if you are a writer and an editor continuously rejects the pitches you give for your article ideas, you may try refining and developing your ideas and re-pitch them to the same editor or a different editor."
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="8. Do what you say you'll do"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:gravity="center"
+            android:background="@drawable/input_bg1"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="It is essential that you match your words with your actions. Employers appreciate employees they can trust and depend on. If you tell your leader you can finish a project by a certain date, then you should take the necessary steps to finish the project accordingly. Relationships are essential to any business, and without trust, a relationship cannot be cultivated. Once you become accountable, you will notice that you attract those who you can also count on."
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="9. Ask the important questions"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Many successful professionals have become successful because they ask important questions. You should maintain a curious disposition and ask questions. Asking questions will build your knowledge and contribute to your learning process and development. You may also consider asking questions about things that are not directly related to your job title if you think it could help you gain a better understanding of your organization as a whole."
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="10. Don't be afraid to speak up"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:background="@drawable/input_bg1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Meetings are meant for employees to share their thoughts and ideas on important topics that affect the business. If you have an idea or if you have a reason to believe an idea shouldn't be implemented, then you should mention it in a professional way with accurate data to back up your claims. You may also request a face-to-face meeting with a supervisor if you need to discuss a sensitive matter or ask for advice. When you participate and speak up, employers will notice that you care about your job and take it seriously."
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
